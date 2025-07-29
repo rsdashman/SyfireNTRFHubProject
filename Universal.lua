@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/rsdashman/Syfire-ui-project000138/refs/heads/main/UIlibs/SecretFile'))()
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/rsdashman/SyfireNTRFHubProject/refs/heads/main/Libs/OrionLib.lua'))()
 --script zone
 local HttpService = game:GetService("HttpService")
 local FAVORITOS_FILE = "myFav.txt"
