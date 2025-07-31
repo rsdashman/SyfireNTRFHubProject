@@ -196,7 +196,7 @@ local SpeedSlider = MainSection:AddSlider({
     Default = 16,
     Increment = 1,
     ValueName = "km/h",
-    Color = Color3.fromRGB(0, 255, 0),
+    Color = Color3.fromRGB(153, 0, 153),
     Callback = function(Value)
         local player = game.Players.LocalPlayer
         if player.Character and player.Character:FindFirstChild("Humanoid") then
@@ -206,13 +206,13 @@ local SpeedSlider = MainSection:AddSlider({
 })
 
 local JumpP = MainSection:AddSlider({
-    Name = "Jumpp",
+    Name = "Jump Power",
     Min = 50,
     Max = 500,
     Default = 50,
     Increment = 1,
     ValueName = "H/gh",
-    Color = Color3.fromRGB(0, 255, 0),
+    Color = Color3.fromRGB(153, 0, 153),
     Callback = function(Value)
         local player = game.Players.LocalPlayer
         if player.Character and player.Character:FindFirstChild("Humanoid") then
@@ -666,6 +666,7 @@ MainSection:AddSlider({
 	Default = 5,
 	Increment = 1,
 	ValueName = "stud/s",
+		 Color = Color3.fromRGB(153, 0, 153),
 	Callback = function(value)
 		airwalkSpeed = value
 	end
@@ -713,6 +714,7 @@ local SpeedSlider = MainTab:AddSlider({
 	Default = 16,
 	Increment = 1,
 	ValueName = "Speed",
+		 Color = Color3.fromRGB(153, 0, 153),
 	Callback = function(Value)
 		-- Update speed if tpwalk is active
 		if tpwalking and tpwalkConnection then
